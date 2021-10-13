@@ -85,14 +85,14 @@ nav a{
   z-index: 1;
 
   /* Requirement 3a code here*/
-  position: relative;
+  position: absolute;
   top: -40px;
   
 }
 
 /* Requirement 3b code here*/
 .skip a:focus{
-  position: relative;
+  position: absolute;
   top: 0px;
 }
 
@@ -125,6 +125,7 @@ header{
   /* YOUR CODE HERE; */
   grid-area: 1 / 1 / span 1 / -1;
   background-image: url("../images/header.jpg");
+  background-repeat: no-repeat;
 }
 
 
